@@ -1,17 +1,16 @@
-Enterprise E-commerce Log Analyzer
- Overview
-An automated Python tool designed to parse messy e-commerce server logs. It uses Regex to extract data and Pandas/Seaborn to visualize system errors and traffic trends.
+# Enterprise E-commerce Log Analyzer
 
- Key Features
-Regex Parsing: Extract timestamps, status codes, and endpoints from unstructured text.
+###  Overview
+A Python-based tool to automate the analysis of unstructured e-commerce server logs. It uses **Regex** for data extraction and **Pandas/Seaborn** to transform raw log entries into a visual system-health dashboard.
 
-Scalable: Processes large log files line-by-line to save memory.
+###  Key Features
+* **Regex Extraction:** High-precision parsing of timestamps, status codes, and endpoints.
+* **Memory-Efficient:** Optimized for large files by processing data line-by-line.
+* **Visual Insights:** Automated plotting of error trends and traffic frequency.
 
-Visual Insights: Generates a dashboard showing error peaks and broken links.
+###  Tech Stack
+* **Language:** Python
+* **Libraries:** Pandas, Matplotlib, Seaborn
+* **Environment:** VS Code / Jupyter Notebook
 
- Tech Stack
-Language: Python
 
-Tools: VS Code, Jupyter Notebook
-
-Libraries: Pandas, Matplotlib, Seaborn, Re (Regex)
